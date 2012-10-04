@@ -7,6 +7,10 @@ body{
 	margin: 0 auto;
 }
 
+h1, h2, h3, h4{
+	text-shadow: 1px 1px 1px #002;
+}
+
 header{
 	background-image: url("../images/grass_background.jpg");
 	background-color: #5f5;
