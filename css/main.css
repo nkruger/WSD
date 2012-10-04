@@ -8,11 +8,13 @@ body{
 }
 
 header{
+	background-image: url("../images/grass_background.jpg");
 	background-color: #5f5;
 }
 
 header h1{
 	float: left;
+	color: #fff;
 }
 
 /*GLobal nav----------------------------------------------- */
