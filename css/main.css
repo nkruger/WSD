@@ -90,7 +90,20 @@ nav a:visited{
 .calltoaction ul{
 	list-style-type: square;
 }
-
+#signupbutton{
+	color: #020;
+	font-weight: bold;
+	background-color: #ff0;
+	background: -moz-linear-gradient(top, yellow 0%, orange 55%, #DEF 130%);
+	text-height: 1.2;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	text-align: center;
+	border: 1px solid #bb0;
+	border-radius: 15px;
+}
 .gallery_thumbs li{
 	float: left;
 	overflow: hidden;
