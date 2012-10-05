@@ -5,10 +5,12 @@ body{
 	width: 960px;
 	padding: 0 30;
 	margin: 0 auto;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2, h3, h4{
 	text-shadow: 1px 1px 1px #002;
+	font-family: 'Marko One', serif;
 }
 
 header{
@@ -21,6 +23,19 @@ header h1{
 	color: #fff;
 }
 
+
+a{
+	color: #0aa;
+}
+a:hover{
+	color: #0ff;
+}
+a:active{
+	color: #00a;
+}
+a:visited{
+	color: #a0a;
+}
 /*GLobal nav----------------------------------------------- */
 
 nav ul{
@@ -59,6 +74,18 @@ nav a:visited{
 	color: #5ff;
 }
 
+.maincontent{
+	background-color: rgba(200, 255, 200, 50);
+}
+
+/*CTA--------------------------------------------------------*/
+
+.calltoaction {
+	background-color: #5f5;
+}
+.calltoaction ul{
+	list-style-type: square;
+}
 
 .gallery_thumbs li{
 	float: left;
