@@ -78,6 +78,10 @@ nav a:visited{
 	background-color: rgba(200, 255, 200, 50);
 }
 
+#maintopic{
+	-moz-column-count: 3;
+}
+
 /*CTA--------------------------------------------------------*/
 
 .calltoaction {
