@@ -91,7 +91,6 @@ nav a:visited{
 	list-style-type: square;
 }
 #signupbutton{
-	color: #020;
 	font-weight: bold;
 	background-color: #ff0;
 	background: -moz-linear-gradient(top, yellow 0%, orange 55%, #DEF 130%);
@@ -104,6 +103,14 @@ nav a:visited{
 	border: 1px solid #bb0;
 	border-radius: 15px;
 }
+#signupbutton a{
+	color: #020;
+	text-decoration: none;
+}
+#signupbutton a:hover{
+	color: #383;
+}
+
 .gallery_thumbs li{
 	float: left;
 	overflow: hidden;
