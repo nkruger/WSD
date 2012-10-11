@@ -154,6 +154,10 @@ footer{
 		background-color: blue;
 	}
 	
+	body {
+		font-size: 90%;
+	}
+	
 	#maintopic {
 		-moz-column-count: 2;	
 	}
@@ -165,6 +169,23 @@ footer{
 	.maincontent {
 		background-color: red;
 	}
+	
+	body {
+		font-size: 90%;
+	}
+	
+	h1 {
+		font-size: 1.8em;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	} 
+	
 	#maintopic {
 		-moz-column-count: 1;	
 	}
@@ -176,6 +197,24 @@ footer{
 	.maincontent {
 		background-color: yellow;
 	}
+	
+	body {
+		font-size: 90%;
+	}
+	
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	h3 {
+		font-size: 1em;
+	} 
+
+	
 	#maintopic {
 		-moz-column-count: 1;	
 	}
