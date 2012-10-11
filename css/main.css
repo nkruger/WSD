@@ -156,9 +156,9 @@ footer{
 
 /* tablet*/
 @media screen and (min-width: 780px) and (max-width: 959px) {
-	.maincontent {
+	/*.maincontent {
 		background-color: blue;
-	}
+	}*/
 	
 	body {
 		font-size: 90%;
@@ -172,9 +172,9 @@ footer{
 
 /* mobile landscape */
 @media only screen and (min-width: 480px) and (max-width: 779px) {
-	.maincontent {
+	/*.maincontent {
 		background-color: red;
-	}
+	}*/
 	
 	body {
 		font-size: 90%;
@@ -214,9 +214,9 @@ footer{
 
 /* mobile portrait */
 @media only screen and (max-width: 479px) {
-	.maincontent {
+	/*.maincontent {
 		background-color: yellow;
-	}
+	}*/
 	
 	body {
 		font-size: 90%;
