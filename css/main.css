@@ -3,7 +3,7 @@ body{
 	background-color: #ddd;
 	line-height: 1.5;
 	max-width: 960px;
-	padding: 0 30;
+	padding: 0 3.125%;
 	margin: 0 auto;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 100%;
@@ -23,7 +23,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 p {
@@ -41,6 +41,14 @@ header h1{
 	width: 50%;
 }
 
+#ant_logo {
+	width: 37.708333333333%;
+	margin: auto;
+}
+
+#ant_logo img{
+	max-width: 100%;
+}
 
 a{
 	color: #0aa;
@@ -72,7 +80,7 @@ nav ul li{
 }
 nav a{
 	display: block;
-	width: 160px;
+	width: 100%;/*160px;*/
 	height: 50px;
 	background-color: #161;
 	line-height: 50px;
@@ -142,15 +150,34 @@ footer{
 
 /* tablet*/
 @media screen and (min-width: 780px) and (max-width: 959px) {
+	.maincontent {
+		background-color: blue;
+	}
+	
+	#maintopic {
+		-moz-column-count: 2;	
+	}
 
 }
 
 /* mobile landscape */
-@media screen and (min-width: 780px) and (max-width: 959px) {
+@media only screen and (min-width: 480px) and (max-width: 779px) {
+	.maincontent {
+		background-color: red;
+	}
+	#maintopic {
+		-moz-column-count: 1;	
+	}
 
 }
 
 /* mobile portrait */
-@media screen and (min-width: 780px) and (max-width: 959px) {
+@media only screen and (max-width: 479px) {
+	.maincontent {
+		background-color: yellow;
+	}
+	#maintopic {
+		-moz-column-count: 1;	
+	}
 
 }
