@@ -2,15 +2,32 @@ body{
 	color: #161;
 	background-color: #ddd;
 	line-height: 1.5;
-	width: 960px;
+	max-width: 960px;
 	padding: 0 30;
 	margin: 0 auto;
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 100%;
 }
 
 h1, h2, h3, h4{
 	text-shadow: 1px 1px 1px #002;
 	font-family: 'Marko One', serif;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 1.2em;
 }
 
 header{
