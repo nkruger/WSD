@@ -46,8 +46,14 @@ header h1{
 	margin: auto;
 }
 
+
 #ant_logo img{
 	max-width: 100%;
+}
+
+#ant_map img{
+	width: 100%;
+	margin: auto;
 }
 
 a{
@@ -226,7 +232,28 @@ footer{
 
 	h3 {
 		font-size: 1em;
+	}
+		header h1 {
+		width: 100%;
+	}
+	
+	nav {
+		width: 100%;
+		clear: both;
+	}
+	
+	nav ul {
+		width: 100%;
+		float: none;
 	} 
+	
+	header {
+		height: 110px;
+	}
+	
+	#ant_logo {
+		visibility: hidden;
+	}
 
 	
 	#maintopic {
