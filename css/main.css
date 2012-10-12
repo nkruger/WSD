@@ -166,6 +166,10 @@ footer{
 		font-size: 90%;
 	}
 	
+	h2 {
+		font-size: 1.6em;
+	}
+	
 	#maintopic {
 		-moz-column-count: 2;	
 	}
