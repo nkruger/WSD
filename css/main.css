@@ -207,6 +207,13 @@ footer{
 		width: 100%;
 		float: none;
 	}
+	header {
+		height: 110px;
+	}
+	
+	#ant_logo {
+		visibility: hidden;
+	}
 	
 	#maintopic {
 		-moz-column-count: 1;	
