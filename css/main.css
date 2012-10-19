@@ -69,6 +69,8 @@ a:active{
 a:visited{
 	color: #a0a;
 }
+
+
 /*GLobal nav----------------------------------------------- */
 
 nav ul{
@@ -116,10 +118,33 @@ nav a:visited{
 	margin-left: 1.875%;
 }
 
+/*Table---------------------------------------------------- */
+table{
+	background-color: rgba(255, 255, 255, .4);
+	padding: 1.4em;
+}
+
+
+
+tr{
+	background-color: rgba(255, 255, 255, .5);
+}
+
+td{
+	border: 1px solid #5f5;
+	padding: .5em;
+}
+
+#table_one{
+	float: left
+}
+
+
 /*CTA--------------------------------------------------------*/
 
 .calltoaction {
 	background-color: #5f5;
+	clear: both;
 }
 .calltoaction ul{
 	list-style-type: square;
